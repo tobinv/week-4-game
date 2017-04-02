@@ -90,17 +90,13 @@ function startGame() {
     cry4 = picRandom();
     // console.log(cry4);
 
-
 }
 
 
 function checkTotal() {
 
     if (score === larger) {
-        //alert("You Win!");
-        $(".message").html("YOU WIN!!");
-        //$(".message").animate({ font-size: '100px', opacity: '1'}, "fast");
-        //$(".message").animate({ font-size: '100px', opacity: '1'}, "fast");
+        alert("You Win!");
 
         winning++;
         $("#wins").html(winning);
